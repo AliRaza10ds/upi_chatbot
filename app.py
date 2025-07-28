@@ -18,7 +18,7 @@ def index():
         if is_upi_query(user_input):
          bot_response = get_bot_response(user_input)
         else:
-           bot_response="sorry i can onyl assist with the UPI-related queries."
+           bot_response="sorry i can only assist with the UPI-related queries."
 
 
     return render_template("gui.html", user_input=user_input, bot_response=bot_response)
